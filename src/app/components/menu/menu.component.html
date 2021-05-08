@@ -1,0 +1,8 @@
+<h2>Menu</h2>
+
+<ul>
+  <li><a routerLink='/cadastro'>Cadastrar</a></li>
+  <li *ngFor="let pessoa of pessoas">
+    <a (click)="goToPessoa(pessoa.nome)">{{ pessoa.nome }}</a>
+  </li>
+</ul>

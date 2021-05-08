@@ -1,0 +1,18 @@
+<form>
+  <div>
+    <label for="nome">Nome: </label>
+    <input type="text" [(ngModel)]="pessoa.nome" name="nome" id="nome">
+  </div>
+  
+  <div>
+    <label for="idade">Idade: </label>
+    <input type="number" [(ngModel)]="pessoa.idade" name="idade" id="idade">
+  </div>
+
+  <div>
+    <label for="imagem">Imagem: </label>
+    <input type="text" [(ngModel)]="pessoa.image" name="image" id="image">
+  </div>
+
+  <button (click)="addPessoa()"> Cadastrar </button>
+</form>

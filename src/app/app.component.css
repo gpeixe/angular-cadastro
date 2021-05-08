@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+.menu {
+  margin: 50px;
+}
+
+#row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  margin: 60px;
+}
